@@ -1,0 +1,2 @@
+
+This is a placeholder file to make sure the uploads directory exists

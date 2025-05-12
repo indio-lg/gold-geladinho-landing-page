@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				gold: {
+					DEFAULT: '#ffd700',
+					dark: '#b8860b',
+					light: '#ffeb99',
+				},
+				pink: {
+					DEFAULT: '#ff007a',
+					dark: '#c6005f',
+					light: '#ff66ab',
+				},
+				purple: {
+					DEFAULT: '#7b2cbf',
+					dark: '#5a189a',
+					light: '#9d4edd',
+				},
+				dark: {
+					DEFAULT: '#0f0f1a',
+					light: '#1a1a2e',
+				},
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['"Playfair Display"', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +108,35 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'pulse-gold': {
+					'0%, 100%': { 
+						boxShadow: '0 0 15px 5px rgba(255, 215, 0, 0.7)'
+					},
+					'50%': { 
+						boxShadow: '0 0 25px 10px rgba(255, 215, 0, 0.9)'
+					},
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'shimmer': {
+					'0%': { backgroundPosition: '-200% 0' },
+					'100%': { backgroundPosition: '200% 0' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-gold': 'pulse-gold 2s infinite',
+				'float': 'float 3s ease-in-out infinite',
+				'shimmer': 'shimmer 3s infinite linear',
+			},
+			backgroundImage: {
+				'gradient-dark': 'linear-gradient(to bottom, #0f0f1a, #1a1a2e)',
+				'gradient-gold': 'linear-gradient(90deg, #ffd700, #b8860b, #ffd700)',
+				'header-pattern': "url('/public/lovable-uploads/567a2f91-61fe-4cdc-8339-f9243702d099.png')",
 			}
 		}
 	},
