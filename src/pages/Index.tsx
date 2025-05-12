@@ -4,10 +4,8 @@ import CTAButton from '@/components/CTAButton';
 import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-dark text-white">
+  return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
       <section className="py-16 md:py-24 px-4 md:px-8 lg:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -19,16 +17,7 @@ const Index = () => {
             
             {/* YouTube Video */}
             <div className="aspect-video w-full mb-6 rounded-lg overflow-hidden shadow-lg">
-              <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/CcTf3ubQCBs" 
-                title="Geladinho Gold" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CcTf3ubQCBs" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg"></iframe>
             </div>
             
             <p className="text-xl mb-8 text-gray-300">
@@ -55,11 +44,7 @@ const Index = () => {
           
           <div className="hidden lg:block relative">
             <div className="absolute -inset-0.5 bg-gradient-gold rounded-2xl blur opacity-50"></div>
-            <img 
-              src="/public/lovable-uploads/567a2f91-61fe-4cdc-8339-f9243702d099.png" 
-              alt="Geladinho Gold" 
-              className="relative rounded-2xl shadow-2xl"
-            />
+            <img src="/public/lovable-uploads/567a2f91-61fe-4cdc-8339-f9243702d099.png" alt="Geladinho Gold" className="relative rounded-2xl shadow-2xl" />
           </div>
         </div>
       </section>
@@ -114,11 +99,7 @@ const Index = () => {
               <h3 className="text-2xl font-bold mt-2">Garantia 200% Gold</h3>
               <p className="text-gray-300 mt-2">Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvo o dobro do seu investimento + kit de açaí.</p>
             </div>
-            <img 
-              src="https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg" 
-              alt="Garantia Gold" 
-              className="w-32 h-32 object-cover rounded-full border-4 border-gold"
-            />
+            <img src="https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg" alt="Garantia Gold" className="w-32 h-32 object-cover rounded-full border-4 border-gold" />
           </div>
         </div>
       </section>
@@ -129,29 +110,13 @@ const Index = () => {
         <p className="text-center text-gray-300 max-w-3xl mx-auto mb-12">Descubra como transformar geladinhos comuns em produtos premium com alto valor agregado.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <BenefitCard 
-            icon={Clock}
-            title="Venda enquanto assiste TV"
-            description="Nosso método permite preparar geladinhos em lote para a semana toda. Organize seu tempo e tenha liberdade."
-          />
+          <BenefitCard icon={Clock} title="Venda enquanto assiste TV" description="Nosso método permite preparar geladinhos em lote para a semana toda. Organize seu tempo e tenha liberdade." />
           
-          <BenefitCard 
-            icon={MessageSquare}
-            title="Sabores que arrombam o Zap"
-            description="Receitas exclusivas que farão seus clientes implorarem por mais e compartilharem com todos os amigos."
-          />
+          <BenefitCard icon={MessageSquare} title="Sabores que arrombam o Zap" description="Receitas exclusivas que farão seus clientes implorarem por mais e compartilharem com todos os amigos." />
           
-          <BenefitCard 
-            icon={DollarSign}
-            title="Preço premium com nome + foto"
-            description="Aprenda a técnica de branding que transforma um simples geladinho em experiência gourmet que justifica R$15."
-          />
+          <BenefitCard icon={DollarSign} title="Preço premium com nome + foto" description="Aprenda a técnica de branding que transforma um simples geladinho em experiência gourmet que justifica R$15." />
           
-          <BenefitCard 
-            icon={Users}
-            title="Respostas prontas para pedintes"
-            description="Scripts testados para calar educadamente quem pede desconto e ainda fazer comprar mais."
-          />
+          <BenefitCard icon={Users} title="Respostas prontas para pedintes" description="Scripts testados para calar educadamente quem pede desconto e ainda fazer comprar mais." />
         </div>
       </section>
       
@@ -162,33 +127,16 @@ const Index = () => {
           <div className="h-1 w-20 bg-gold mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <TestimonialCard 
-              name="Márcia L."
-              image="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              content="Antes eu vendia só no meu bairro. Agora tenho clientes de 3 bairros diferentes que vêm até minha casa buscar os geladinhos gold! 🤩🍧"
-              highlighted
-            />
+            <TestimonialCard name="Márcia L." image="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" content="Antes eu vendia só no meu bairro. Agora tenho clientes de 3 bairros diferentes que vêm até minha casa buscar os geladinhos gold! 🤩🍧" highlighted />
             
-            <TestimonialCard 
-              name="Paula R."
-              image="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              content="Comprei o curso na segunda e na sexta já tinha vendido 20 geladinhos a R$15. Minha filha nem acreditou! Melhor investimento! 😍💰"
-            />
+            <TestimonialCard name="Paula R." image="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" content="Comprei o curso na segunda e na sexta já tinha vendido 20 geladinhos a R$15. Minha filha nem acreditou! Melhor investimento! 😍💰" />
             
-            <TestimonialCard 
-              name="Joana F."
-              image="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              content="As dicas de embalagem são TUDO! Meus geladinhos agora parecem de confeitaria chique. Nunca mais vendi por menos de R$12! 🥇✨"
-            />
+            <TestimonialCard name="Joana F." image="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" content="As dicas de embalagem são TUDO! Meus geladinhos agora parecem de confeitaria chique. Nunca mais vendi por menos de R$12! 🥇✨" />
           </div>
           
           <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="bg-dark rounded-xl overflow-hidden">
-              <img 
-                src="/public/lovable-uploads/0f10b1de-59b5-4891-bca0-1057705d5a46.png" 
-                alt="Geladinhos Gold Premium" 
-                className="w-full h-auto object-cover"
-              />
+              <img src="/public/lovable-uploads/0f10b1de-59b5-4891-bca0-1057705d5a46.png" alt="Geladinhos Gold Premium" className="w-full h-auto object-cover" />
             </div>
             
             <div className="space-y-6">
@@ -231,7 +179,7 @@ const Index = () => {
           <div className="bg-dark-light p-6 rounded-xl border border-gold">
             <div className="flex items-center mb-4">
               <MessageSquare className="text-gold w-8 h-8 mr-4" />
-              <h3 className="text-xl font-bold">Scripts "R$15 num geladinho?!"</h3>
+              <h3 className="text-xl font-bold">Segredo &quot;R$15 num geladinho?!&quot;</h3>
             </div>
             <p className="text-gray-300 mb-4">Respostas prontas para quando questionarem seu preço. Transforme incrédulos em clientes fiéis!</p>
             <div className="bg-dark text-gold font-semibold py-2 px-4 rounded inline-block">
@@ -277,16 +225,8 @@ const Index = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
             <div className="grid grid-cols-2 gap-4">
-              <img 
-                src="/public/lovable-uploads/420dc73b-5284-41b7-b9f6-70adfe111dcf.png" 
-                alt="Geladinho Choco+mmgo Premium" 
-                className="rounded-xl shadow-xl w-full h-auto"
-              />
-              <img 
-                src="/public/lovable-uploads/7bd9d4cf-9a22-4148-b226-0a0ba64e8e8a.png" 
-                alt="Geladinho Maracuja e Uva Premium" 
-                className="rounded-xl shadow-xl w-full h-auto"
-              />
+              <img src="/public/lovable-uploads/420dc73b-5284-41b7-b9f6-70adfe111dcf.png" alt="Geladinho Choco+mmgo Premium" className="rounded-xl shadow-xl w-full h-auto" />
+              <img src="/public/lovable-uploads/7bd9d4cf-9a22-4148-b226-0a0ba64e8e8a.png" alt="Geladinho Maracuja e Uva Premium" className="rounded-xl shadow-xl w-full h-auto" />
             </div>
             
             <div>
@@ -346,35 +286,17 @@ const Index = () => {
         <div className="h-1 w-20 bg-gold mx-auto mb-12"></div>
         
         <div className="max-w-3xl mx-auto">
-          <FaqItem 
-            question="Preciso saber cozinhar?"
-            answer="Não! Todas as receitas são simples e passo a passo. Se você sabe misturar ingredientes, já está apta a criar geladinhos premium."
-          />
+          <FaqItem question="Preciso saber cozinhar?" answer="Não! Todas as receitas são simples e passo a passo. Se você sabe misturar ingredientes, já está apta a criar geladinhos premium." />
           
-          <FaqItem 
-            question="E se ninguém comprar?"
-            answer="Impossível! Nosso método inclui estratégias de venda testadas por centenas de alunas. Além disso, oferecemos garantia de 200%: Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvemos o dobro do seu investimento."
-          />
+          <FaqItem question="E se ninguém comprar?" answer="Impossível! Nosso método inclui estratégias de venda testadas por centenas de alunas. Além disso, oferecemos garantia de 200%: Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvemos o dobro do seu investimento." />
           
-          <FaqItem 
-            question="Dá para começar com pouco investimento?"
-            answer="Com certeza! Você pode começar com R$100 em insumos e equipamentos básicos que já tem em casa. Nossa estratégia é baseada em começar pequeno e reinvestir os lucros."
-          />
+          <FaqItem question="Dá para começar com pouco investimento?" answer="Com certeza! Você pode começar com R$100 em insumos e equipamentos básicos que já tem em casa. Nossa estratégia é baseada em começar pequeno e reinvestir os lucros." />
           
-          <FaqItem 
-            question="Sou tímida, isso serve para mim?"
-            answer="Sim! Muitas de nossas alunas são tímidas e vendem exclusivamente por WhatsApp ou Instagram. O método inclui scripts de venda para quem não gosta de falar muito."
-          />
+          <FaqItem question="Sou tímida, isso serve para mim?" answer="Sim! Muitas de nossas alunas são tímidas e vendem exclusivamente por WhatsApp ou Instagram. O método inclui scripts de venda para quem não gosta de falar muito." />
           
-          <FaqItem 
-            question="Quanto tempo demora para eu começar a lucrar?"
-            answer="Nossas alunas começam a vender já na primeira semana após o curso. Com dedicação de 2h por dia, você pode estar lucrando em menos de 7 dias."
-          />
+          <FaqItem question="Quanto tempo demora para eu começar a lucrar?" answer="Nossas alunas começam a vender já na primeira semana após o curso. Com dedicação de 2h por dia, você pode estar lucrando em menos de 7 dias." />
           
-          <FaqItem 
-            question="Preciso entregar ou posso vender de casa?"
-            answer="Você pode escolher! O método ensina tanto estratégias para vender de casa (criando escassez) quanto modelos de entrega com margem para lucrar ainda mais."
-          />
+          <FaqItem question="Preciso entregar ou posso vender de casa?" answer="Você pode escolher! O método ensina tanto estratégias para vender de casa (criando escassez) quanto modelos de entrega com margem para lucrar ainda mais." />
         </div>
       </section>
       
@@ -425,11 +347,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-dark py-12">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
-          <img 
-            src="https://placehold.co/200x60/gold/dark?text=Geladinho+Gold" 
-            alt="Geladinho Gold Logo" 
-            className="h-12 mx-auto mb-6"
-          />
+          <img src="https://placehold.co/200x60/gold/dark?text=Geladinho+Gold" alt="Geladinho Gold Logo" className="h-12 mx-auto mb-6" />
           
           <p className="text-gray-400 mb-4">
             © {new Date().getFullYear()} Método Geladinho Gold. Todos os direitos reservados.
@@ -442,8 +360,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
