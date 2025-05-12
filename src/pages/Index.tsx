@@ -17,6 +17,21 @@ const Index = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6 leading-tight">
               Geladinho <span className="text-gradient">Gold</span>: De Mãe Para Chef de Bairro
             </h1>
+            
+            {/* YouTube Video */}
+            <div className="aspect-video w-full mb-6 rounded-lg overflow-hidden shadow-lg">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/CcTf3ubQCBs" 
+                title="Geladinho Gold" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            
             <p className="text-xl mb-8 text-gray-300">
               Pare de Ser a <span className="line-through text-pink">Tia do Doce</span> que Todo Mundo Pede Desconto...
             </p>
