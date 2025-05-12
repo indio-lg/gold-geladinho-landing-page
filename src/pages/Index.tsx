@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -186,9 +185,9 @@ const Index = () => {
           <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="bg-dark rounded-xl overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/6994926/pexels-photo-6994926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Provas sociais" 
-                className="w-full h-64 object-cover"
+                src="/public/lovable-uploads/0f10b1de-59b5-4891-bca0-1057705d5a46.png" 
+                alt="Geladinhos Gold Premium" 
+                className="w-full h-auto object-cover"
               />
             </div>
             
@@ -277,11 +276,16 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
-            <div>
+            <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.pexels.com/photos/5946775/pexels-photo-5946775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Antes e Depois" 
-                className="rounded-xl shadow-xl"
+                src="/public/lovable-uploads/84161d5f-cee1-4c3b-9206-800486533a8e.png" 
+                alt="Geladinho Chocolate Premium" 
+                className="rounded-xl shadow-xl w-full h-auto"
+              />
+              <img 
+                src="/public/lovable-uploads/8fe5d35f-4364-4077-ad0e-a2d02b38e2fd.png" 
+                alt="Geladinho Maracujá Premium" 
+                className="rounded-xl shadow-xl w-full h-auto"
               />
             </div>
             

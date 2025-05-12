@@ -17,7 +17,7 @@ const BenefitCard = ({
   className,
 }: BenefitCardProps) => {
   return (
-    <div className={cn("bg-dark-light rounded-xl p-6 hover:shadow-md transition-all duration-300 hover:shadow-gold/30 hover:scale-105", className)}>
+    <div className={cn("bg-dark-light rounded-xl p-6 hover:shadow-md transition-all duration-300 hover:shadow-gold/30 hover:scale-105 border border-transparent hover:border-gold/20", className)}>
       <div className="bg-gradient-gold w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg">
         <Icon className="text-dark w-7 h-7" />
       </div>
