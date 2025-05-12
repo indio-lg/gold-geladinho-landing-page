@@ -224,7 +224,7 @@ const Index = () => {
             </div>
             <p className="text-gray-300 mb-4">20 templates de fotos profissionais para você fazer com celular mesmo. Seus produtos vão parecer de revista gourmet!</p>
             <div className="bg-dark text-gold font-semibold py-2 px-4 rounded inline-block">
-              VALOR: R$ 97,00 (GRÁTIS)
+              VALOR: <span className="line-through">R$ 97,00</span> (GRÁTIS)
             </div>
           </div>
           
@@ -235,7 +235,7 @@ const Index = () => {
             </div>
             <p className="text-gray-300 mb-4">Respostas prontas para quando questionarem seu preço. Transforme incrédulos em clientes fiéis!</p>
             <div className="bg-dark text-gold font-semibold py-2 px-4 rounded inline-block">
-              VALOR: R$ 67,00 (GRÁTIS)
+              VALOR: <span className="line-through">R$ 67,00</span> (GRÁTIS)
             </div>
           </div>
           
@@ -246,7 +246,7 @@ const Index = () => {
             </div>
             <p className="text-gray-300 mb-4">Organize sua produção para trabalhar apenas 2 horas por dia e ter geladinhos para a semana toda.</p>
             <div className="bg-dark text-gold font-semibold py-2 px-4 rounded inline-block">
-              VALOR: R$ 77,00 (GRÁTIS)
+              VALOR: <span className="line-through">R$ 77,00</span> (GRÁTIS)
             </div>
           </div>
           
@@ -257,7 +257,7 @@ const Index = () => {
             </div>
             <p className="text-gray-300 mb-4">30 receitas exclusivas que fazem clientes voltarem sempre. Combinações que justificam o preço premium.</p>
             <div className="bg-dark text-gold font-semibold py-2 px-4 rounded inline-block">
-              VALOR: R$ 127,00 (GRÁTIS)
+              VALOR: <span className="line-through">R$ 127,00</span> (GRÁTIS)
             </div>
           </div>
         </div>
@@ -278,13 +278,13 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="/public/lovable-uploads/84161d5f-cee1-4c3b-9206-800486533a8e.png" 
-                alt="Geladinho Chocolate Premium" 
+                src="/public/lovable-uploads/420dc73b-5284-41b7-b9f6-70adfe111dcf.png" 
+                alt="Geladinho Choco+mmgo Premium" 
                 className="rounded-xl shadow-xl w-full h-auto"
               />
               <img 
-                src="/public/lovable-uploads/8fe5d35f-4364-4077-ad0e-a2d02b38e2fd.png" 
-                alt="Geladinho Maracujá Premium" 
+                src="/public/lovable-uploads/7bd9d4cf-9a22-4148-b226-0a0ba64e8e8a.png" 
+                alt="Geladinho Maracuja e Uva Premium" 
                 className="rounded-xl shadow-xl w-full h-auto"
               />
             </div>
