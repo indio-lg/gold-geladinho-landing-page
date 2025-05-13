@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -37,7 +36,7 @@ const Index = () => {
             
             <div className="mt-4 flex items-center text-sm text-gray-400">
               <span className="mr-2">✓</span>
-              <p>Acesso imediato após confirmação de pagamento</p>
+              <p className="">Acesso imediato após confirmação de pagamento</p>
             </div>
           </div>
           
