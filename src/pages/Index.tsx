@@ -20,9 +20,7 @@ const Index = () => {
               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CcTf3ubQCBs" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg"></iframe>
             </div>
             
-            <p className="text-xl mb-8 text-gray-300">
-              De Madrugada na Cozinha para Donas de Império: Como Vendi R$ 8.300 em 2 Mês Vendendo Geladinho gourmet
-            </p>
+            <p className="text-xl mb-8 text-gray-300">De Madrugada na Cozinha para Donas de Império: Como Vendi R$8.300 em 2 Mês com Geladinho Gourmet</p>
             
             <div className="bg-dark-light p-4 rounded-lg mb-8 border-l-4 border-gold">
               <p className="italic text-gray-300">
