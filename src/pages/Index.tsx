@@ -134,7 +134,7 @@ const Index = () => {
           
           <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="bg-dark rounded-xl overflow-hidden">
-              <img src="/public/lovable-uploads/0f10b1de-59b5-4891-bca0-1057705d5a46.png" alt="Geladinhos Gold Premium" className="w-full h-auto object-cover" />
+              <img alt="Geladinhos Gold Premium" className="w-full h-auto object-cover" src="/lovable-uploads/7019be1c-f030-44d2-a9d0-e21807a2f6a5.jpg" />
             </div>
             
             <div className="space-y-6">
