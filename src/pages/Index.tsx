@@ -12,7 +12,7 @@ const Index = () => {
           <div>
             <span className="px-4 py-1 bg-pink rounded-full text-sm font-semibold inline-block mb-4">MÉTODO EXCLUSIVO</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6 leading-tight">
-              Geladinho <span className="text-gradient">Gold</span>: De Mãe Para Chef de Bairro
+              <span className="text-gradient">Geladinho Gold:</span> De Mãe Para Chef de Bairro
             </h1>
             
             {/* YouTube Video */}
