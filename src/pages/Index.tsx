@@ -223,7 +223,7 @@ const Index = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
             <div className="grid grid-cols-2 gap-4">
-              <img alt="Geladinho Choco+mmgo Premium" className="rounded-xl shadow-xl w-full h-auto" src="/lovable-uploads/36990bc6-7580-4f9e-ac43-6e5a94f136fb.jpg" />
+              <img alt="Geladinho Choco+mmgo Premium" className="rounded-xl shadow-xl w-full h-auto" src="/lovable-uploads/3ad2602b-f3e8-4b7e-b4b2-ec3bc2ac80b3.jpg" />
               <img alt="Geladinho Maracuja e Uva Premium" className="rounded-xl shadow-xl w-full h-auto" src="/lovable-uploads/6c0246c7-8cbd-413d-9df6-6734668e0719.jpg" />
             </div>
             
