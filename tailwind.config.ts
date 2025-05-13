@@ -70,12 +70,12 @@ export default {
 				},
 				pink: {
 					DEFAULT: '#ff007a',
-					dark: '#c6005f',
+					dark: '#9f0049',
 					light: '#ff66ab',
 				},
 				purple: {
 					DEFAULT: '#7b2cbf',
-					dark: '#5a189a',
+					dark: '#4e1a7b',
 					light: '#9d4edd',
 				},
 				dark: {

@@ -298,8 +298,8 @@ const Index = () => {
         </div>
       </section>
       
-      {/* Final CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-purple to-pink">
+      {/* Final CTA Section with darker pink/purple gradient */}
+      <section className="py-16 bg-gradient-to-r from-purple-dark via-purple to-pink-dark">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
           <div className="inline-block bg-gold/20 px-4 py-2 rounded-full text-gold font-semibold mb-4">
             OFERTA POR TEMPO LIMITADO
