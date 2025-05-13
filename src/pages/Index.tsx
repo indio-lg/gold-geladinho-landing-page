@@ -21,7 +21,7 @@ const Index = () => {
             </div>
             
             <p className="text-xl mb-8 text-gray-300">
-              Pare de Ser a <span className="line-through text-pink">Tia do Doce</span> que Todo Mundo Pede Desconto...
+              De Madrugada na Cozinha para Donas de Império: Como Vendi R$ 8.300 em 2 Mês Vendendo Geladinho gourmet
             </p>
             
             <div className="bg-dark-light p-4 rounded-lg mb-8 border-l-4 border-gold">
