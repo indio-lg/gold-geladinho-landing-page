@@ -224,7 +224,7 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
             <div className="grid grid-cols-2 gap-4">
               <img alt="Geladinho Choco+mmgo Premium" className="rounded-xl shadow-xl w-full h-auto" src="/lovable-uploads/36990bc6-7580-4f9e-ac43-6e5a94f136fb.jpg" />
-              <img src="/public/lovable-uploads/7bd9d4cf-9a22-4148-b226-0a0ba64e8e8a.png" alt="Geladinho Maracuja e Uva Premium" className="rounded-xl shadow-xl w-full h-auto" />
+              <img alt="Geladinho Maracuja e Uva Premium" className="rounded-xl shadow-xl w-full h-auto" src="/lovable-uploads/6c0246c7-8cbd-413d-9df6-6734668e0719.jpg" />
             </div>
             
             <div>
