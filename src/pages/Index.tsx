@@ -315,7 +315,7 @@ const Index = () => {
           
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl max-w-2xl mx-auto mb-8">
             <h3 className="text-2xl font-bold mb-4">
-              Hoje é o dia de virar a mulher que entrega geladinhos num potinho dourado... e volta pra casa com notas de R$50 no sutiã.
+              <span className="text-gradient">Hoje é o dia de virar a mulher que entrega geladinhos num potinho dourado... e volta pra casa com notas de R$50 no sutiã.</span>
             </h3>
             
             <div className="flex flex-col md:flex-row justify-between items-center bg-dark-light p-4 rounded-lg mb-6">
