@@ -28,7 +28,7 @@ const Index = () => {
               <p className="italic text-gray-300">
                 "Antes eu vendia geladinhos por R$3 no bairro. Depois do método, comecei a vender por R$15 e esgoto meu estoque em 2 dias!"
               </p>
-              <p className="font-bold mt-2">— Renata S., São Paulo</p>
+              <p className="font-bold mt-2">Renata S.M, São Paulo 28 Anos</p>
             </div>
             
             <CTAButton animated size="lg">
