@@ -99,7 +99,7 @@ const Index = () => {
               <h3 className="text-2xl font-bold mt-2">Garantia 200% Gold</h3>
               <p className="text-gray-300 mt-2">Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvo o dobro do seu investimento + kit de açaí.</p>
             </div>
-            <img src="https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg" alt="Garantia Gold" className="w-32 h-32 object-cover rounded-full border-4 border-gold" />
+            <img alt="Garantia Gold" className="w-32 h-32 object-cover rounded-full border-4 border-gold" src="/lovable-uploads/3147388f-2187-4992-a998-232fb399ee5f.jpg" />
           </div>
         </div>
       </section>
