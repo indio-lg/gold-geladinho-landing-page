@@ -51,7 +51,7 @@ const Index = () => {
       {/* Promise with FOMO Section */}
       <section className="py-16 bg-dark-light">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-4">Em apenas 7 dias você vai...</h2>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-4">Em apenas <span className="text-gradient">7 dias</span> você vai...</h2>
           <div className="h-1 w-20 bg-gold mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
