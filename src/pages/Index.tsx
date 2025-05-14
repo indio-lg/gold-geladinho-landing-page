@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -160,7 +161,9 @@ const Index = () => {
       
       {/* Bonuses Section */}
       <section className="py-16 md:py-24 px-4 md:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-4">Bônus Exclusivos</h2>
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-4">
+          <span className="text-gradient">Bônus Exclusivos</span>
+        </h2>
         <p className="text-center text-gray-300 max-w-3xl mx-auto mb-12">Ao adquirir o Método Geladinho Gold hoje, você também recebe:</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
