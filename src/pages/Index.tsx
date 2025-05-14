@@ -4,7 +4,6 @@ import CTAButton from '@/components/CTAButton';
 import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
-
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
