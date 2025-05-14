@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -19,7 +18,7 @@ const Index = () => {
             
             {/* YouTube Video */}
             <div className="aspect-video w-full mb-6 rounded-lg overflow-hidden shadow-lg">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/CcTf3ubQCBs" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg"></iframe>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AZuILJeEkmE" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg"></iframe>
             </div>
             
             <p className="text-xl mb-8 text-gray-300">De Madrugada na Cozinha para Donas de Império: <span className="text-gradient">Como Vendi R$8.300 em 2 Mês com Geladinhos Gourmet</span></p>
@@ -365,4 +364,3 @@ const Index = () => {
     </div>;
 };
 export default Index;
-
