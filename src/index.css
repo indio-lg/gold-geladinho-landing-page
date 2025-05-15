@@ -106,4 +106,10 @@
   .text-gradient {
     @apply bg-gradient-gold text-transparent bg-clip-text animate-shimmer bg-[length:200%];
   }
+  
+  /* Enhanced gold gradient text with increased visibility */
+  .text-gradient-enhanced {
+    @apply bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 text-transparent bg-clip-text animate-shimmer bg-[length:200%] font-bold;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+  }
 }

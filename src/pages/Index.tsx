@@ -1,9 +1,11 @@
+
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
 import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
+
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
@@ -297,7 +299,7 @@ const Index = () => {
           
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl max-w-2xl mx-auto mb-8">
             <h3 className="text-2xl font-bold mb-4">
-              <span className="text-gradient">Hoje é o dia de virar a mulher que entrega geladinhos num potinho dourado... e volta pra casa com notas de R$50 no sutiã.</span>
+              <span className="text-gradient-enhanced">Hoje é o dia de virar a mulher que entrega geladinhos num potinho dourado... e volta pra casa com notas de R$50 no sutiã.</span>
             </h3>
             
             <div className="flex flex-col md:flex-row justify-between items-center bg-dark-light p-4 rounded-lg mb-6">
