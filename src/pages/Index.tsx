@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -289,7 +290,7 @@ const Index = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-            Bônus Exclusivo Para as Primeiras <span className="text-gradient">50 Alunas</span>
+            Bônus Exclusivo Para as Primeiras <span className="text-gradient">50 <span className="text-gradient">Alunas</span></span>
           </h2>
           
           <p className="text-xl mb-8 max-w-3xl mx-auto">
