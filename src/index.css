@@ -112,4 +112,10 @@
     @apply bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 text-transparent bg-clip-text animate-shimmer bg-[length:200%] font-bold;
     text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
   }
+  
+  /* Highlighted red for attention-grabbing text */
+  .text-red-500 {
+    @apply text-[#ea384c] font-bold;
+    text-shadow: 0 0 3px rgba(234, 56, 76, 0.3);
+  }
 }
