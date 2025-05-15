@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -304,12 +303,12 @@ const Index = () => {
             
             <div className="flex flex-col md:flex-row justify-between items-center bg-dark-light p-4 rounded-lg mb-6">
               <div className="text-left mb-4 md:mb-0">
-                <p className="text-gray-300 line-through">De R$997,00</p>
-                <p className="text-2xl font-bold text-red-500">Por apenas R$67,00</p>
+                <p className="text-red-500 line-through">De R$997,00</p>
+                <p className="text-2xl font-bold">Por apenas R$67,00</p>
                 <p className="text-sm text-gray-300">ou 12x de R$5,50</p>
               </div>
-              <div className="bg-red-500/20 p-3 rounded-lg">
-                <p className="text-red-500 font-bold">80% OFF</p>
+              <div className="bg-gold/20 p-3 rounded-lg">
+                <p className="text-gold font-bold">80% OFF</p>
               </div>
             </div>
             
