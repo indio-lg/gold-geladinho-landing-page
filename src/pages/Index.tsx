@@ -280,26 +280,6 @@ const Index = () => {
         </div>
       </section>
       
-      {/* FAQ Section */}
-      <section className="py-16 md:py-24 px-4 md:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-4">Perguntas Frequentes</h2>
-        <div className="h-1 w-20 bg-gold mx-auto mb-12"></div>
-        
-        <div className="max-w-3xl mx-auto">
-          <FaqItem question="Preciso saber cozinhar?" answer="Não! Todas as receitas são simples e passo a passo. Se você sabe misturar ingredientes, já está apta a criar geladinhos premium." />
-          
-          <FaqItem question="E se ninguém comprar?" answer="Impossível! Nosso método inclui estratégias de venda testadas por centenas de alunas. Além disso, oferecemos garantia de 200%: Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvemos o dobro do seu investimento." />
-          
-          <FaqItem question="Dá para começar com pouco investimento?" answer="Com certeza! Você pode começar com R$100 em insumos e equipamentos básicos que já tem em casa. Nossa estratégia é baseada em começar pequeno e reinvestir os lucros." />
-          
-          <FaqItem question="Sou tímida, isso serve para mim?" answer="Sim! Muitas de nossas alunas são tímidas e vendem exclusivamente por WhatsApp ou Instagram. O método inclui scripts de venda para quem não gosta de falar muito." />
-          
-          <FaqItem question="Quanto tempo demora para eu começar a lucrar?" answer="Nossas alunas começam a vender já na primeira semana após o curso. Com dedicação de 2h por dia, você pode estar lucrando em menos de 7 dias." />
-          
-          <FaqItem question="Preciso entregar ou posso vender de casa?" answer="Você pode escolher! O método ensina tanto estratégias para vender de casa (criando escassez) quanto modelos de entrega com margem para lucrar ainda mais." />
-        </div>
-      </section>
-      
       {/* Final CTA Section with darker pink/purple gradient */}
       <section className="py-16 bg-gradient-to-r from-purple-dark via-purple to-pink-dark">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
@@ -341,6 +321,26 @@ const Index = () => {
               <p>Pagamento 100% seguro | Acesso imediato</p>
             </div>
           </div>
+        </div>
+      </section>
+      
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 px-4 md:px-8 max-w-7xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-4">Perguntas Frequentes</h2>
+        <div className="h-1 w-20 bg-gold mx-auto mb-12"></div>
+        
+        <div className="max-w-3xl mx-auto">
+          <FaqItem question="Preciso saber cozinhar?" answer="Não! Todas as receitas são simples e passo a passo. Se você sabe misturar ingredientes, já está apta a criar geladinhos premium." />
+          
+          <FaqItem question="E se ninguém comprar?" answer="Impossível! Nosso método inclui estratégias de venda testadas por centenas de alunas. Além disso, oferecemos garantia de 200%: Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvemos o dobro do seu investimento." />
+          
+          <FaqItem question="Dá para começar com pouco investimento?" answer="Com certeza! Você pode começar com R$100 em insumos e equipamentos básicos que já tem em casa. Nossa estratégia é baseada em começar pequeno e reinvestir os lucros." />
+          
+          <FaqItem question="Sou tímida, isso serve para mim?" answer="Sim! Muitas de nossas alunas são tímidas e vendem exclusivamente por WhatsApp ou Instagram. O método inclui scripts de venda para quem não gosta de falar muito." />
+          
+          <FaqItem question="Quanto tempo demora para eu começar a lucrar?" answer="Nossas alunas começam a vender já na primeira semana após o curso. Com dedicação de 2h por dia, você pode estar lucrando em menos de 7 dias." />
+          
+          <FaqItem question="Preciso entregar ou posso vender de casa?" answer="Você pode escolher! O método ensina tanto estratégias para vender de casa (criando escassez) quanto modelos de entrega com margem para lucrar ainda mais." />
         </div>
       </section>
       
