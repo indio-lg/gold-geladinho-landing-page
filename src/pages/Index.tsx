@@ -7,7 +7,7 @@ import FaqItem from '@/components/FaqItem';
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
-      <section className="py-16 md:py-24 px-4 md:px-8 lg:px-12 max-w-7xl mx-auto">
+      <section className="md:py-24 md:px-8 lg:px-12 max-w-7xl px-[16px] mx-0 my-0 py-[40px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="px-4 py-1 bg-pink rounded-full text-sm font-semibold inline-block mb-4">MÉTODO EXCLUSIVO</span>
