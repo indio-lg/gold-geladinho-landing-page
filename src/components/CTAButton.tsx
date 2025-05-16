@@ -40,7 +40,6 @@ const CTAButton = ({
       <a 
         href={href}
         className={cn(baseStyles, variants[variant], sizes[size], animation, className)}
-        {...props}
       >
         {children}
       </a>
