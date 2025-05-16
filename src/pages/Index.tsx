@@ -32,9 +32,8 @@ const Index = () => {
               <p className="font-bold mt-2">Renata S.M, São Paulo 28 Anos</p>
             </div>
             
-            <CTAButton animated size="lg" href={PURCHASE_LINK}>
+            <CTAButton animated size="lg" href={PURCHASE_LINK} className="w-full md:w-auto">
               Quero Vender Geladinhos de R$15
-              <ArrowRight className="ml-2 w-5 h-5" />
             </CTAButton>
             
             <div className="mt-4 flex items-center text-sm text-gray-400">
@@ -316,7 +315,6 @@ const Index = () => {
             
             <CTAButton animated size="lg" className="w-full md:w-auto" href={PURCHASE_LINK}>
               Quero Aprender o Método Geladinho Gold
-              <ArrowRight className="ml-2 w-5 h-5" />
             </CTAButton>
             
             <div className="mt-4 flex items-center justify-center text-sm">

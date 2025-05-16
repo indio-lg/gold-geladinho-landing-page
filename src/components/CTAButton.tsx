@@ -39,7 +39,7 @@ const CTAButton = ({
     return (
       <a 
         href={href}
-        className={cn(baseStyles, variants[variant], sizes[size], animation, className)}
+        className={cn(baseStyles, variants[variant], sizes[size], animation, className, "text-center")}
       >
         {children}
       </a>
@@ -48,7 +48,7 @@ const CTAButton = ({
   
   return (
     <button 
-      className={cn(baseStyles, variants[variant], sizes[size], animation, className)}
+      className={cn(baseStyles, variants[variant], sizes[size], animation, className, "text-center")}
       {...props}
     >
       {children}
