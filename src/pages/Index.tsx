@@ -4,6 +4,7 @@ import CTAButton from '@/components/CTAButton';
 import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
+import WhatsAppFloat from '@/components/WhatsAppFloat';
 
 const PURCHASE_LINK = "https://pay.cakto.com.br/5qYmxXn";
 
@@ -361,6 +362,11 @@ const Index = () => {
           </div>
         </div>
       </footer>
+      {/* WhatsApp Float Button */}
+      <WhatsAppFloat 
+        phoneNumber="5521967502652" 
+        message="Quero o Geladinho Gold" 
+      />
     </div>;
 };
 export default Index;
