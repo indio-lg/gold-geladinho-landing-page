@@ -1,10 +1,11 @@
-
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
 import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
+
+const PURCHASE_LINK = "https://pay.cakto.com.br/5qYmxXn";
 
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
@@ -31,7 +32,7 @@ const Index = () => {
               <p className="font-bold mt-2">Renata S.M, São Paulo 28 Anos</p>
             </div>
             
-            <CTAButton animated size="lg">
+            <CTAButton animated size="lg" href={PURCHASE_LINK}>
               Quero Vender Geladinhos de R$15
               <ArrowRight className="ml-2 w-5 h-5" />
             </CTAButton>
@@ -313,7 +314,7 @@ const Index = () => {
               </div>
             </div>
             
-            <CTAButton animated size="lg" className="w-full md:w-auto">
+            <CTAButton animated size="lg" className="w-full md:w-auto" href={PURCHASE_LINK}>
               Quero Aprender o Método Geladinho Gold
               <ArrowRight className="ml-2 w-5 h-5" />
             </CTAButton>

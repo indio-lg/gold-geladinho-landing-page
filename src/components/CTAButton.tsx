@@ -8,6 +8,7 @@ interface CTAButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: 'default' | 'lg' | 'sm';
   className?: string;
   animated?: boolean;
+  href?: string;
 }
 
 const CTAButton = ({
@@ -16,6 +17,7 @@ const CTAButton = ({
   size = 'default',
   className,
   animated = false,
+  href,
   ...props
 }: CTAButtonProps) => {
   const baseStyles = "font-bold rounded-full transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center";
@@ -32,6 +34,18 @@ const CTAButton = ({
   };
   
   const animation = animated ? "animate-pulse-gold" : "";
+  
+  if (href) {
+    return (
+      <a 
+        href={href}
+        className={cn(baseStyles, variants[variant], sizes[size], animation, className)}
+        {...props}
+      >
+        {children}
+      </a>
+    );
+  }
   
   return (
     <button 
