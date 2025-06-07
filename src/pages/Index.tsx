@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Check, Star, Gift, MessageSquare, Clock, Users, DollarSign } from 'lucide-react';
 import CTAButton from '@/components/CTAButton';
@@ -309,7 +308,7 @@ const Index = () => {
           
           <div className="bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-xl max-w-2xl mx-auto mb-6 md:mb-8">
             <h3 className="text-xl md:text-2xl font-bold mb-4">
-              <span className="text-gradient-enhanced">Hoje é o dia de virar a mulher que entrega geladinhos num potinho dourado... e volta pra casa com notas de R$50 no sutiã.</span>
+              <span className="text-gradient-enhanced">Hoje é o dia de virar a Mulher que Entrega Geladinhos num potinho Dourado... e volta pra Casa com Notas de R$50 no Sutiã.</span>
             </h3>
             
             <div className="flex flex-col sm:flex-row justify-between items-center bg-dark-light p-4 rounded-lg mb-4 md:mb-6 gap-4">
