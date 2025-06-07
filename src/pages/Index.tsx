@@ -5,9 +5,7 @@ import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
-
 const PURCHASE_LINK = "https://pay.cakto.com.br/5qYmxXn";
-
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
@@ -45,7 +43,7 @@ const Index = () => {
           
           <div className="hidden lg:block relative">
             <div className="absolute -inset-0.5 bg-gradient-gold rounded-2xl blur opacity-50"></div>
-            <img src="/public/lovable-uploads/567a2f91-61fe-4cdc-8339-f9243702d099.png" alt="Geladinho Gold" className="relative rounded-2xl shadow-2xl" />
+            
           </div>
         </div>
       </section>
@@ -363,10 +361,7 @@ const Index = () => {
         </div>
       </footer>
       {/* WhatsApp Float Button */}
-      <WhatsAppFloat 
-        phoneNumber="5521967502652" 
-        message="Quero o Geladinho Gold" 
-      />
+      <WhatsAppFloat phoneNumber="5521967502652" message="Quero o Geladinho Gold" />
     </div>;
 };
 export default Index;
