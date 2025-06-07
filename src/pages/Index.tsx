@@ -181,7 +181,7 @@ const Index = () => {
               <Gift className="text-gold w-6 h-6 md:w-8 md:h-8 mr-3 md:mr-4 flex-shrink-0" />
               <h3 className="text-lg md:text-xl font-bold">Kit Fotos Gourmet de Pobre</h3>
             </div>
-            <p className="text-gray-300 mb-4 text-sm md:text-base">20 templates de fotos profissionais para você fazer com celular mesmo. Seus produtos vão parecer de revista gourmet!</p>
+            <p className="text-gray-300 mb-4 text-sm md:text-base">20 fotos profissionais para você usar no WhatsApp. Seus produtos vão parecer de revista gourmet!</p>
             <div className="bg-dark text-gold font-semibold py-2 px-3 md:px-4 rounded inline-block text-sm md:text-base">
               VALOR: <span className="line-through">R$ 97,00</span> (GRÁTIS)
             </div>
