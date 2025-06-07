@@ -5,12 +5,9 @@ import TestimonialCard from '@/components/TestimonialCard';
 import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
-
 const PURCHASE_LINK = "https://pay.cakto.com.br/5qYmxXn";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-dark text-white">
+  return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
       <section className="py-8 md:py-16 lg:py-24 px-4 md:px-8 lg:px-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -22,15 +19,7 @@ const Index = () => {
             
             {/* YouTube Video */}
             <div className="aspect-video w-full mb-4 md:mb-6 rounded-lg overflow-hidden shadow-lg">
-              <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/AZuILJeEkmE" 
-                title="Geladinho Gold" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowFullScreen 
-                className="rounded-lg">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AZuILJeEkmE" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg">
               </iframe>
             </div>
             
@@ -109,11 +98,7 @@ const Index = () => {
               <h3 className="text-xl md:text-2xl font-bold mt-2">Garantia 200% Gold</h3>
               <p className="text-gray-300 mt-2 text-sm md:text-base">Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvo o dobro do seu investimento + kit de açaí.</p>
             </div>
-            <img 
-              alt="Garantia Gold" 
-              className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-full border-4 border-gold flex-shrink-0" 
-              src="/lovable-uploads/3147388f-2187-4992-a998-232fb399ee5f.jpg" 
-            />
+            <img alt="Garantia Gold" className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-full border-4 border-gold flex-shrink-0" src="/lovable-uploads/3147388f-2187-4992-a998-232fb399ee5f.jpg" />
           </div>
         </div>
       </section>
@@ -314,7 +299,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row justify-between items-center bg-dark-light p-4 rounded-lg mb-4 md:mb-6 gap-4">
               <div className="text-center sm:text-left">
                 <p className="text-red-500 line-through text-lg md:text-xl">De R$997,00</p>
-                <p className="text-xl md:text-2xl font-bold">Por apenas R$67,00</p>
+                <p className="md:text-2xl font-bold text-3xl">Por apenas R$67,00</p>
                 <p className="text-sm text-gray-300">ou 12x de R$5,50</p>
               </div>
               <div className="bg-gold/20 p-3 rounded-lg">
@@ -368,8 +353,6 @@ const Index = () => {
       
       {/* WhatsApp Float Button */}
       <WhatsAppFloat phoneNumber="5521967502652" message="Quero o Geladinho Gold" />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
