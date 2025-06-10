@@ -299,7 +299,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row justify-between items-center bg-dark-light p-4 rounded-lg mb-4 md:mb-6 gap-4">
               <div className="text-center sm:text-left">
                 <p className="text-red-500 line-through text-lg md:text-xl">De R$997,00</p>
-                <p className="md:text-2xl font-bold text-3xl">Por apenas R$67,00</p>
+                <p className="md:text-2xl font-bold text-3xl">Por Apenas R$67,00</p>
                 <p className="text-sm text-gray-300">ou 12x de R$5,50</p>
               </div>
               <div className="bg-gold/20 p-3 rounded-lg">
