@@ -42,24 +42,8 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="order-1 lg:order-2">
-            <div className="relative">
-              <div className="absolute -inset-0.5 bg-gradient-gold rounded-2xl blur opacity-50"></div>
-              <div className="relative bg-dark-light rounded-2xl p-4">
-                <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
-                  <iframe 
-                    width="100%" 
-                    height="100%" 
-                    src="https://drive.google.com/file/d/1OSHQQrp-0tvDNrsE8nwmyKS4YX23xNYV/preview" 
-                    title="Geladinho Gold - Vídeo Adicional" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowFullScreen 
-                    className="rounded-lg">
-                  </iframe>
-                </div>
-              </div>
-            </div>
+          <div className="hidden lg:block relative order-1 lg:order-2">
+            <div className="absolute -inset-0.5 bg-gradient-gold rounded-2xl blur opacity-50"></div>
           </div>
         </div>
       </section>
