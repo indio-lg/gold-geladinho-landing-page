@@ -17,10 +17,16 @@ const Index = () => {
               <span className="text-gradient">Geladinho Gold:</span> De Mãe Para Chef de Bairro
             </h1>
             
-            {/* YouTube Video */}
-            <div className="aspect-video w-full mb-4 md:mb-6 rounded-lg overflow-hidden shadow-lg">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AZuILJeEkmE" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg">
-              </iframe>
+            {/* YouTube Videos Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 md:mb-6">
+              <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AZuILJeEkmE" title="Geladinho Gold" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg">
+                </iframe>
+              </div>
+              <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+                <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1OSHQQrp-0tvDNrsE8nwmyKS4YX23xNYV/preview" title="Geladinho Gold - Vídeo 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-lg">
+                </iframe>
+              </div>
             </div>
             
             <p className="text-lg md:text-xl mb-6 md:mb-8 text-gray-300">De Madrugada na Cozinha para Donas de Império: <span className="text-gradient">Como Vendi R$8.300 em 2 Mês com Geladinhos Gourmet</span></p>
