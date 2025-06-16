@@ -6,6 +6,7 @@ import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 const PURCHASE_LINK = "https://pay.cakto.com.br/5qYmxXn";
+
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
@@ -99,6 +100,22 @@ const Index = () => {
               <p className="text-gray-300 mt-2 text-sm md:text-base">Se não vender pelo menos UM geladinho de R$15 em 30 dias, devolvo o dobro do seu investimento + kit de açaí.</p>
             </div>
             <img alt="Garantia Gold" className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-full border-4 border-gold flex-shrink-0" src="/lovable-uploads/3147388f-2187-4992-a998-232fb399ee5f.jpg" />
+          </div>
+          
+          {/* YouTube Shorts Video */}
+          <div className="mt-8 md:mt-12 max-w-sm mx-auto">
+            <div className="aspect-[9/16] w-full rounded-xl overflow-hidden shadow-lg bg-dark border border-gold/50">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/pCnjKAQjJDM" 
+                title="Geladinho Gold - YouTube Shorts" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen 
+                className="rounded-xl">
+              </iframe>
+            </div>
           </div>
         </div>
       </section>
@@ -355,4 +372,5 @@ const Index = () => {
       <WhatsAppFloat phoneNumber="5521967502652" message="Quero o Geladinho Gold" />
     </div>;
 };
+
 export default Index;
