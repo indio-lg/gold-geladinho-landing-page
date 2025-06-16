@@ -6,7 +6,6 @@ import BenefitCard from '@/components/BenefitCard';
 import FaqItem from '@/components/FaqItem';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 const PURCHASE_LINK = "https://pay.cakto.com.br/5qYmxXn";
-
 const Index = () => {
   return <div className="min-h-screen bg-gradient-dark text-white">
       {/* Hero Section */}
@@ -14,7 +13,7 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="order-2 lg:order-1">
             <span className="px-3 md:px-4 py-1 bg-pink rounded-full text-xs md:text-sm font-semibold inline-block mb-4">MÉTODO EXCLUSIVO</span>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-4 md:mb-6 leading-tight">
+            <h1 className="md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-4 md:mb-6 leading-tight text-4xl">
               <span className="text-gradient">Geladinho Gold:</span> De Mãe Para Chef de Bairro
             </h1>
             
@@ -50,7 +49,7 @@ const Index = () => {
       </section>
 
       {/* Promise with FOMO Section */}
-      <section className="py-12 md:py-16 bg-dark-light">
+      <section className="py-12 md:py-16 bg-dark-light rounded-none">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-display font-bold text-center mb-4">Em apenas <span className="text-gradient">7 dias</span> você vai...</h2>
           <div className="h-1 w-16 md:w-20 bg-gold mx-auto mb-8 md:mb-12"></div>
@@ -105,15 +104,7 @@ const Index = () => {
           {/* YouTube Shorts Video */}
           <div className="mt-8 md:mt-12 max-w-sm mx-auto">
             <div className="aspect-[9/16] w-full rounded-xl overflow-hidden shadow-lg bg-dark border border-gold/50">
-              <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/pCnjKAQjJDM" 
-                title="Geladinho Gold - YouTube Shorts" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowFullScreen 
-                className="rounded-xl">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pCnjKAQjJDM" title="Geladinho Gold - YouTube Shorts" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="rounded-xl">
               </iframe>
             </div>
           </div>
@@ -372,5 +363,4 @@ const Index = () => {
       <WhatsAppFloat phoneNumber="5521967502652" message="Quero o Geladinho Gold" />
     </div>;
 };
-
 export default Index;
